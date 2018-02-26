@@ -1,0 +1,9 @@
+site_name: Select-Ast
+repo_url: https://github.com/KevinMarquette/Select-Ast
+theme: readthedocs
+pages:
+  - Home: index.md
+  - Select-Ast Basics:
+    - What is Select-Ast: about.md
+    - Quick Start: Quick-Start-Installation-and-Example.md
+  - Acknowledgements: acknowledgements.md
