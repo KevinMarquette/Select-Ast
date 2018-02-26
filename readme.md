@@ -2,6 +2,24 @@
 
 A PowerShell module for working with the AST
 
+# EXAMPLE
+
+    $script = {
+        $var = 1
+        function test-function {
+            param($string = 'generic message')
+            Write-Output -InputObject $string
+        }
+
+        function other-function {
+            test-function -string 'new message'
+        }
+    }
+    
+    $script | Select-AST -Type FunctionDefinitionAst {
+        $_.Name -like 'other-*'
+    }
+
 ## GitPitch PitchMe presentation
 
 * [gitpitch.com/KevinMarquette/Select-Ast](https://gitpitch.com/KevinMarquette/Select-Ast)
