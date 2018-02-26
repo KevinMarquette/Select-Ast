@@ -10,7 +10,7 @@
     CompanyName       = 'Unknown'
     Copyright         = '(c) KevinMarquette. All rights reserved.'
     Description       = ''
-    FunctionsToExport = @()
+    FunctionsToExport = @('Select-Ast')
     CmdletsToExport   = @()
     VariablesToExport = @()
     AliasesToExport   = @()

@@ -19,7 +19,7 @@ $publishRepository = 'PSGallery'
 
 # Grab nuget bits, install modules, set build variables, start build.
 Write-Output "  Install And Import Build Modules"
-$psDependVersion = '0.1.62'
+$psDependVersion = '0.1.63'
 if (-not(Get-InstalledModule PSDepend -RequiredVersion $psDependVersion -EA SilentlyContinue))
 {
     Install-Module PSDepend -RequiredVersion $psDependVersion -Force -Scope CurrentUser
