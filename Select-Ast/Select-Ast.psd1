@@ -6,10 +6,10 @@
     RootModule        = 'Select-Ast.psm1'
     ModuleVersion     = '0.1.0'
     GUID              = 'bb2ddc89-4d05-4fe3-bdac-7379386f40cd'
-    Author            = 'KevinMarquette'
+    Author            = 'Kevin Marquette'
     CompanyName       = 'Unknown'
     Copyright         = '(c) KevinMarquette. All rights reserved.'
-    Description       = ''
+    Description       = 'A PowerShell module for working with the AST'
     FunctionsToExport = @('Select-Ast')
     CmdletsToExport   = @()
     VariablesToExport = @()
@@ -32,9 +32,9 @@
     # FileList = @()
     PrivateData       = @{
         PSData = @{
-            # Tags = @()
-            # LicenseUri = ''
-            # ProjectUri = ''
+            Tags       = @('AST')
+            LicenseUri = 'https://github.com/KevinMarquette/Select-Ast/blob/master/LICENSE'
+            ProjectUri = 'https://github.com/KevinMarquette/Select-Ast  '
             # IconUri = ''
             # ReleaseNotes = ''
         }
