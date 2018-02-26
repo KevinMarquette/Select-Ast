@@ -8,7 +8,7 @@ clone_folder: C:\MyProjects\Select-Ast
 
 environment:
   NugetApiKey:
-    secure: ***************
+    secure: sqj8QGRYue5Vq3vWm2GdcCttqyOkt7NOheKlnmIUq1UcgVrmQezFArp/2Z1+G3oT
 
 # Skip on updates to the readme.
 # We can force this by adding [skip ci] or [ci skip] anywhere in commit message 
