@@ -8,7 +8,7 @@
     GUID              = 'bb2ddc89-4d05-4fe3-bdac-7379386f40cd'
     Author            = 'Kevin Marquette'
     CompanyName       = 'Unknown'
-    Copyright         = '(c) KevinMarquette. All rights reserved.'
+    Copyright         = '(c) 2018 KevinMarquette. All rights reserved.'
     Description       = 'A PowerShell module for working with the AST'
     FunctionsToExport = @('Select-Ast')
     CmdletsToExport   = @()

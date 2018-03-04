@@ -87,17 +87,17 @@ function Select-AST
 
     process
     {
-        if ($Path)
+        if (![string]::IsNullOrWhiteSpace($Path))
         {
             $AstScriptText = Get-Content -Path $Path -Raw -ErrorAction Stop
         }
         
-        if ($AstScriptText)
+        if (![string]::IsNullOrWhiteSpace($AstScriptText))
         {
             $AstScriptBlock = [scriptblock]::Create($AstScriptText)
         }
 
-        if ($AstScriptBlock)
+        if ($null -ne $AstScriptBlock)
         {
             $Ast = $AstScriptBlock.Ast
         }
